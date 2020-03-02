@@ -15,7 +15,7 @@
     function! s:fullscreen_init()
         " Save the variable only for this tab, allowing fullscreening
         " of pages across different tabs.
-        let t:_fs_sizes = { 'before': winrestcmd() }
+        let t:_fullscreen_info = { 'before': winrestcmd() }
 
         " Make the window fullscreen.
         vert resize | resize
