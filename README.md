@@ -23,8 +23,8 @@ Plug 'levouh/vim-fullscreen'
 No mappings are set by default, and only a single `:FullscreenToggle` command is provided. I recommend the following mappings:
 
 ```
-nnoremap <silent> <C-F> :FullscreenToggle()<CR>
-tnoremap <silent> <C-F> <C-W>:FullscreenToggle()<CR>
+nnoremap <silent> <C-F> :FullscreenToggle<CR>
+tnoremap <silent> <C-F> <C-W>:FullscreenToggle<CR>
 ```
 
 ### Configuration

@@ -1,6 +1,6 @@
 " --- Verification
 
-    if exists('g:_loaded_fullscreen') || v:version < 802 || has('gui_running')
+    if exists('g:_loaded_fullscreen') || v:version < 802
         finish
     endif
 
